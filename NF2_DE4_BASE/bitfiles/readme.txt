@@ -1,0 +1,1 @@
+Bit files get copied to this folder in Linux compilation
