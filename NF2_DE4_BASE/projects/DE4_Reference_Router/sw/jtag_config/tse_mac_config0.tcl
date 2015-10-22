@@ -91,7 +91,7 @@ puts "==========================================================================
 # Open JTAG Master Service
 # ========================
 open_service master $jtag_master;
-master_write_32 $jtag_master MAC_ADDRESS_NEXT 0x00000000;
+master_write_32 $jtag_master $MAC_ADDRESS_NEXT 0x00000000;
 
 puts "\nInfo: Opened JTAG Master Service\n\n";
 
